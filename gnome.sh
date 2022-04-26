@@ -50,8 +50,8 @@ chroot kaynak apt-get install atmel-firmware bluez-firmware dahdi-firmware-nonfr
   firmware-realtek firmware-samsung firmware-siano \
   firmware-sof-signed firmware-ti-connectivity firmware-zd1211 hdmi2usb-fx2-firmware -y
   
-### Xfce için gerekli paketleri kuralım
-chroot kaynak apt-get install gnome-core -y
+### Gnome için gerekli paketleri kuralım (Cinnamon için gnome-core yazan yere cinnamon yazın!)
+chroot kaynak apt-get install gnome-core network-manager-gnome -y
 
 ### İsteğe bağlı paketleri kuralım
 chroot kaynak apt-get install blueman gvfs-backends neofetch rar -y
@@ -94,4 +94,4 @@ echo '    initrd /live/initrd.img' >> isowork/boot/grub/grub.cfg
 echo '}' >> isowork/boot/grub/grub.cfg
 
 echo "ISO oluşturuluyor.."
-grub-mkrescue isowork -o pardus-xfce-live-$(date +%x).iso
+grub-mkrescue isowork -o pardus-live-$(date +%x).iso
