@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ### Kişisel Pardus 21 backpots ISO yapımı
-### sudo ./build.sh komutu ile çalıştırınız
+### sudo ./xfce.sh komutu ile çalıştırınız
 
 ### gerekli paketler
 apt install debootstrap xorriso squashfs-tools mtools grub-pc-bin grub-efi
