@@ -22,7 +22,7 @@ echo 'deb http://depo.pardus.org.tr/pardus yirmibir main contrib non-free' >> ka
 echo '# deb-src http://depo.pardus.org.tr/pardus yirmibir main contrib non-free' >> kaynak/etc/apt/sources.list
 echo 'deb http://depo.pardus.org.tr/guvenlik yirmibir main contrib non-free' >> kaynak/etc/apt/sources.list
 echo '# deb-src http://depo.pardus.org.tr/guvenlik yirmibir main contrib non-free' >> kaynak/etc/apt/sources.list
-echo 'deb http://depo.pardus.org.tr/pardus yirmibir-backports main contrib non-free' > kaynak/etc/apt/yirmibir-backports.list
+echo 'deb http://depo.pardus.org.tr/pardus yirmibir-backports main contrib non-free' > kaynak/etc/apt/sources.list.d/yirmibir-backports.list
 chroot kaynak apt update
 
 ### kernel paketini kuralım (Backpots istemiyorsanız -t yirmibir-backports yazısını siliniz!)
