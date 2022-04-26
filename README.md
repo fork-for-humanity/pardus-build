@@ -2,16 +2,17 @@
 
 Pardus 21 Backports iso yapan scprit
 
+Önce bash scpritlerin program olarak çalışmasına izin verelim
+
+chmod +x xfce.sh gnome.sh kde.sh 
 
 Aşağıdaki komutu uçbirime yazmanız yeterli :)
 
-
-
-Xfce ISO için:
+Xfce için:
 sudo ./xfce.sh 
 
-Gnome/Cinnamon ISO için:
+Gnome/Cinnamon için:
 sudo ./gnome.sh
 
-Kde ISO için: 
+Kde için: 
 sudo ./kde.sh
