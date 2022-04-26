@@ -38,7 +38,7 @@ chroot kaynak apt-get install live-config live-boot -y
 chroot kaynak apt-get install xorg xinit -y
 
 ### firmware paketleri için
-#chroot kaynak apt-get install atmel-firmware bluez-firmware dahdi-firmware-nonfree \
+chroot kaynak apt-get install atmel-firmware bluez-firmware dahdi-firmware-nonfree \
   firmware-amd-graphics firmware-ath9k-htc firmware-atheros \
   firmware-b43-installer firmware-b43legacy-installer firmware-bnx2 \
   firmware-bnx2x firmware-brcm80211 firmware-cavium \
@@ -94,4 +94,4 @@ echo '    initrd /live/initrd.img' >> isowork/boot/grub/grub.cfg
 echo '}' >> isowork/boot/grub/grub.cfg
 
 echo "ISO oluşturuluyor.."
-grub-mkrescue isowork -o pardus-xfce-live-$(date +%x).iso
+grub-mkrescue isowork -o pardus-kde-live-$(date +%x).iso
