@@ -50,7 +50,7 @@ chroot kaynak apt-get install atmel-firmware bluez-firmware dahdi-firmware-nonfr
   firmware-realtek firmware-samsung firmware-siano \
   firmware-sof-signed firmware-ti-connectivity firmware-zd1211 hdmi2usb-fx2-firmware -y
   
-### Xfce için gerekli paketleri kuralım
+### Kde için gerekli paketleri kuralım
 chroot kaynak apt-get install kde-standard -y
 
 ### İsteğe bağlı paketleri kuralım
