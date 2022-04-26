@@ -58,8 +58,8 @@ chroot kaynak apt-get install blueman gvfs-backends neofetch rar -y
 
 ### Pardus paketleri kuralım 
 chroot kaynak apt-get install pardus-common-desktop pardus-configure pardus-locales -y
-chroot kaynak apt-get install pardus-package-installer pardus-software pardus-welcome -y
-chroot kaynak apt-get install pardus-dolunay-grub-theme pardus-gtk-theme pardus-icon-theme pardus-about pardus-installer -y
+chroot kaynak apt-get install pardus-package-installer pardus-software -y
+chroot kaynak apt-get install pardus-dolunay-grub-theme pardus-icon-theme pardus-about pardus-installer -y
 
 ### zorunlu kurulu gelen paketleri silelim (isteğe bağlı)
 chroot kaynak apt-get remove xterm icedtea-netx -y
