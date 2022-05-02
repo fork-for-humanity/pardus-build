@@ -51,7 +51,7 @@ chroot kaynak apt-get install atmel-firmware bluez-firmware dahdi-firmware-nonfr
   firmware-sof-signed firmware-ti-connectivity firmware-zd1211 hdmi2usb-fx2-firmware -y
   
 ### Gnome için gerekli paketleri kuralım (Cinnamon için gnome-core yazan yere cinnamon yazın!)
-chroot kaynak apt-get install gnome-core network-manager-gnome -y
+chroot kaynak apt-get install gnome-core gnome-tweaks network-manager-gnome -y
 
 ### İsteğe bağlı paketleri kuralım
 chroot kaynak apt-get install blueman gvfs-backends neofetch rar -y
