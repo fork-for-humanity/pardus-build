@@ -38,7 +38,7 @@ chroot kaynak apt-get install live-config live-boot -y
 chroot kaynak apt-get install xorg xinit -y
 
 ### firmware paketleri için
-chroot kaynak apt-get install atmel-firmware bluez-firmware dahdi-firmware-nonfree \
+chroot kaynak apt-get install -y atmel-firmware bluez-firmware dahdi-firmware-nonfree \
   firmware-amd-graphics firmware-ath9k-htc firmware-atheros \
   firmware-b43-installer firmware-b43legacy-installer firmware-bnx2 \
   firmware-bnx2x firmware-brcm80211 firmware-cavium \
@@ -48,7 +48,7 @@ chroot kaynak apt-get install atmel-firmware bluez-firmware dahdi-firmware-nonfr
   firmware-misc-nonfree firmware-myricom firmware-netronome \
   firmware-netxen firmware-qcom-soc firmware-qlogic \
   firmware-realtek firmware-samsung firmware-siano \
-  firmware-sof-signed firmware-ti-connectivity firmware-zd1211 hdmi2usb-fx2-firmware -y
+  firmware-sof-signed firmware-ti-connectivity firmware-zd1211 hdmi2usb-fx2-firmware
   
 ### Cinnamon için gerekli paketleri kuralım 
 chroot kaynak apt-get install cinnamon network-manager-gnome -y
